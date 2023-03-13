@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "can you live in Chicago?" | tr -d 'cC'
