@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | grep 'declare -- local'
+set -o posix; set; declare -p; declare -F
