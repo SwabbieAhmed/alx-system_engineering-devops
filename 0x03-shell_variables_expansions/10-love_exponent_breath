@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(echo "scale=3; $BREATH ^ $LOVE" | bc)
